@@ -1,3 +1,27 @@
+To run this project
+
+Dependencies: 
+ 1. docker-compose
+ 2. Please dont forgot to run "npm i" in both directory "cd techguild-task" and "cd techguild-task-backed" to avoid any missing package.
+
+How to Run:
+ Simply run below command in main directory it will create run all the containers and applications
+
+"./run.sh"
+
+URL: 
+
+Adminer access to see schema: 
+ Credentials : Please find credentials in docker-compose env
+ URL: http://localhost:8080/?pgsql=tech-db&username=user&db=tech&ns=public&select=profile 
+
+Backend Application:
+ Token:"kgjhadjkljklasdjkljkladsjkldasjkjkadskjbads" 
+ URL: GET:http://localhost:4000/profile
+
+Frontend Application:
+URL: http://localhost:3000/
+
 This is a coding challenge for prospective front-end and full-stack developer applicants applying to TechGuilds.
 
 If you're unfamiliar with React, Facebook has put together a helpful tutorial that provides a quick introduction to the basics: https://reactjs.org/docs/hello-world.html
